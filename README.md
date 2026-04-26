@@ -1,5 +1,6 @@
 # CropGuard 🌱
-![CropGuard Banner](assets/banner.png) A real-time, fully autonomous plant disease monitoring system combining edge hardware and computer vision.
+A real-time, fully autonomous plant disease monitoring system combining edge hardware and computer vision.
+![CropGuard Banner](assets/banner.png) 
 
 ## 📌 Overview
 CropGuard is a cost-effective system designed to deliver high-accuracy, autonomous plant disease detection directly to farmers. The system integrates a single, low-power ESP32-CAM unit, deployed in the field and sustainably powered by a solar panel, to capture high-resolution images of plant leaves. It wirelessly transmits these images in real time to a cloud-based server where an optimized YOLOv8 object detection model identifies and localizes diseases with high accuracy. The centralized dashboard, powered by the iotbegineer platform, alerts farmers immediately and provides actionable remedies to treat the diseases.
