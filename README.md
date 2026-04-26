@@ -9,7 +9,6 @@ CropGuard is a cost-effective system designed to deliver high-accuracy, autonomo
 
 ## 🏗️ System Architecture
 ![System Architecture](assets/architecture.png) 
-*(Add the architecture flowchart from your presentation here)*
 
 ## ✨ Features
 * **Fully Autonomous & Solar Powered:** Continuously powered by a dedicated solar panel setup and battery management system.
@@ -18,8 +17,7 @@ CropGuard is a cost-effective system designed to deliver high-accuracy, autonomo
 * **Real-Time Web Platform:** Live feeds, historical reports, and alerts accessible via a user-friendly interface.
 
 ## 🛠️ Hardware Setup
-![Hardware Setup](assets/hardware_setup.png)
-*(Add the photo of your physical ESP32-CAM and solar panel baseboard here)*
+![Hardware Setup](assets/hardware_setup.jpeg)
 
 The physical hardware acts as the central processing unit at the edge. The custom setup includes:
 * ESP32-CAM Module (Microcontroller & OV2640 2MP Camera)
@@ -36,11 +34,7 @@ The physical hardware acts as the central processing unit at the edge. The custo
 * **IoT Integration:** iotbegineer platform for data logging, stream buffering, and remote monitoring
 
 ## 📈 Dashboard & Results
-![Dashboard Interface](assets/dashboard.png)
-*(Add the screenshot of your CropGuard web platform dashboard here)*
-
-![YOLOv8 Test Outputs](assets/test_outputs.png)
-*(Add the image showing the bounding boxes on the diseased leaves here)*
+![Dashboard Interface](assets/dashboard.png) ![YOLOv8 Test Outputs](assets/test_outputs.png)
 
 ## 📊 Performance Metrics
 The system achieves excellent performance by offloading heavy processing to the cloud, significantly outperforming local edge-inference models:
