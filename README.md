@@ -34,7 +34,8 @@ The physical hardware acts as the central processing unit at the edge. The custo
 * **IoT Integration:** iotbegineer platform for data logging, stream buffering, and remote monitoring
 
 ## 📈 Dashboard & Results
-![Dashboard Interface](assets/dashboard.png) [YOLOv8 Test Outputs](assets/test_outputs.png)
+![Dashboard Interface](assets/dashboard.png) 
+![YOLOv8 Test Outputs](assets/test_outputs.png)
 
 ## 📊 Performance Metrics
 The system achieves excellent performance by offloading heavy processing to the cloud, significantly outperforming local edge-inference models:
