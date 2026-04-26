@@ -214,5 +214,38 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# CROPGUARD CUSTOM IGNORES (Hardware, AI, IoT)
+# ==========================================
+
+# 1. YOLOv8 & Machine Learning Data
+# ------------------------------------------
+# Ignore Ultralytics training runs (these folders get massive)
+runs/
+# Ignore your image datasets (GitHub is not for storing thousands of plant images)
+datasets/
+data/
+*.cache
+# Ignore heavy model checkpoints, but you can keep your final lightweight weight file
+*.pt
+!best.pt  # (Optional: removes the ignore rule for just your final model weight)
+
+# 2. Arduino & ESP32-CAM Build Files
+# ------------------------------------------
+# Ignore compiled binaries so they don't clog up your commits
+build/
+*.elf
+*.bin
+*.hex
+*.uf2
+
+# 3. Security & IoT Credentials (CRITICAL)
+# ------------------------------------------
+# NEVER upload your Wi-Fi passwords, IoT API keys, or ESP32 credentials
+secrets.h
+config.h
+.env
