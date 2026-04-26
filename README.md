@@ -35,6 +35,8 @@ The physical hardware acts as the central processing unit at the edge. The custo
 
 ## 📈 Dashboard & Results
 ![Dashboard Interface](assets/dashboard.png) 
+
+
 ![YOLOv8 Test Outputs](assets/test_outputs.png)
 
 ## 📊 Performance Metrics
