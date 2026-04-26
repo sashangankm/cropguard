@@ -18,7 +18,7 @@ CropGuard is a cost-effective system designed to deliver high-accuracy, autonomo
 * **Real-Time Web Platform:** Live feeds, historical reports, and alerts accessible via a user-friendly interface.
 
 ## 🛠️ Hardware Setup
-![Hardware Setup](assets/hardware_setup.jpg)
+![Hardware Setup](assets/hardware_setup.png)
 *(Add the photo of your physical ESP32-CAM and solar panel baseboard here)*
 
 The physical hardware acts as the central processing unit at the edge. The custom setup includes:
