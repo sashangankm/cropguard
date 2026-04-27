@@ -53,7 +53,7 @@ Continuous development aims to make the system more energy-efficient and user-fr
 * **Large-Scale Farm Management:** Enhancing cloud and mobile application integration for broader remote monitoring.
 * **Automated Alerts:** Adding SMS or push notification alerts for immediate intervention.
 
-## 👥 Team
+## 👥 Collaborators
 * Naveen Khumar S
 * Sashangan K M
 * Venkatesan R
