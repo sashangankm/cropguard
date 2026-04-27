@@ -1,5 +1,0 @@
-tensorflow
-numpy
-requests
-opencv-python
-Pillow
